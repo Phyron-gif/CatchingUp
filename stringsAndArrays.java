@@ -7,8 +7,24 @@ public class stringsAndArrays {
         String txt2 = "i am a dispenser of the Grace God";
         System.out.println(txt1.equals(txt2));// .equals() method compares the equality of two strings.
         System.out.println(txt1.trim());//removes leading and trailing widespaces.
-         String txt3 = "  my name is \"Hannah\"";
-        System.out.println(txt1);// we dont normally use tripple code if we want to print a string of characters in double codes we use \"\".
+         String txt3 = "  my name \\ is \"Hannah\"";
+        System.out.println(txt3);// we dont normally use tripple code if we want to print a string of characters in double codes we use \"\".
+
+        //Math method
+        System.out.println(Math.pow(2,3));// this will always produce a double
+        
+        //RANDOM NUMBERS
+        /*there is a difference between Math.random and the random class. for math.randome,
+         * there is no need importing a class because math is part of the java.lang package which is automatically imported in every java program. 
+         * 
+         */
+        
+        int randomNumber = (int)(Math.random()*101);
+        System.out.println(randomNumber);//also returns a double
+        
+        
+
+        
 
     }
 }
