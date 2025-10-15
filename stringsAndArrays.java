@@ -1,3 +1,4 @@
+import java.util.Arrays;
 public class stringsAndArrays {
 
     public static void main(String[] args){
@@ -23,10 +24,37 @@ public class stringsAndArrays {
         System.out.println(randomNumber);//also returns a double
 
         //JAVA CONDITIONS AND IF STATEMENTS
-        
+    /*
+     * we use the If statement to execute a block of code with a specific condition being true.
+     * we use the else if to execute a different block of code if the condition of the if statement is false.
+     * we use the else to exucute a dufferent block of code with a new condition if the first conditions are false.
+     * we use a switch to specify or carry out the operation of multiple else if statement.
+     * the Tenary operators is used to replace multiple lines of code with a single line. it is most often used to replace simple if else statements
+     * variable = (condition)? expressionTrue : espressionFalse;
+     */
+    //Normal if and else
+    int time = 20;
+    if (time<18){
+        System.out.println("Good day");  
+    }
+    else{
+                System.out.println("Good evening");
+    }
+        //Tenary
+        int time2 = 20;
+        String result = (time<18)? "Good day":"Good evening";
+                System.out.println(result);
         
 
+       /*
+       NESTED IFS
+       it let you check for a condition only if another condition is true
+        */ 
+    int[] num = {1,2,3,4};
+    for (int i = 0; i<num.length;i++){
         
 
+    }
+System.out.println(Arrays.toString(num));
     }
 }
