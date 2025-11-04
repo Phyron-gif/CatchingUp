@@ -13,6 +13,12 @@ public class lecture{
                 this.FavouriteCaffeteria = fc;
 
             }
+            public void setName(String name){
+                this.name = name;
+            }
+            public String getName(){
+                return name;
+            }
             void activities(){
                 System.out.println("My name is " + name + " i am an Ashesi University student with student ID " + IdNumber + ", i major in "+ major +" and my favourite oncampus caffeteria is "+ FavouriteCaffeteria );
 
@@ -23,6 +29,10 @@ public class lecture{
         student Brenda = new student(46482027,"Brenda","Mechanical Engineering","Munchies");
         Tracy.activities();
         Brenda.activities();
+        Tracy.setName("PHYRON");
+        Tracy.activities();
+
+    
        
 
     }
